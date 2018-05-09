@@ -24,5 +24,15 @@ namespace FightingGame
             name = n;
             damage = d;
         }
+
+        public int getDamage()
+        {
+            return damage;
+        }
+
+        public Texture2D[] getAnimations()
+        {
+            return animations;
+        }
     }
 }
