@@ -1,0 +1,2 @@
+H:\game\MyFirstProject\FinalProject-master\FightingGame\FightingGame\FightingGameContent\obj\x86\Debug\FightingGameContent.contentprojResolveAssemblyReference.cache
+C:\Users\130523\Desktop\FightingGame\FightingGame\FightingGame\FightingGameContent\obj\x86\Debug\FightingGameContent.contentprojResolveAssemblyReference.cache
