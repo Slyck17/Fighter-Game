@@ -121,19 +121,19 @@ namespace FightingGame
             GamePadState p2CurrentState = GamePad.GetState(p2);
             if (p1CurrentState.ThumbSticks.Left.X < 0)
             {
-                p1Rect.X += -3;
+                p1Rect.X += -10;
             }
             if (p1CurrentState.ThumbSticks.Left.X > 0)
             {
-                p1Rect.X += 3;
+                p1Rect.X += 10;
             }
             if (p2CurrentState.ThumbSticks.Left.X < 0)
             {
-                p2Rect.X += -3;
+                p2Rect.X += -10;
             }
             if (p2CurrentState.ThumbSticks.Left.X > 0)
             {
-                p2Rect.X += 3;
+                p2Rect.X += 10;
             }
         }
         /// <summary>
