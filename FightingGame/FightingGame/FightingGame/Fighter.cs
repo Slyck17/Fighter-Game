@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Code Edit
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -61,6 +62,11 @@ namespace FightingGame
                 canJump = false;
                 velocity.Y = speed.Y;
             }
+           // if (GPState.ThumbSticks.Left.Y <= -0.5 && canJump)
+            //{
+              //  canJump = false;
+                //velocity.Y = 0;
+            //}
         }
     }
          
