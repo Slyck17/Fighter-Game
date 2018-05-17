@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +15,7 @@ namespace FightingGame
     class Fighter
     {
         public String name;
-        public Texture2D[] movementAnimations; //choose 
+        public Texture2D[] movementAnimations;
         public int health;
         public Move[] moveset;
         public int speed;
@@ -31,12 +31,12 @@ namespace FightingGame
             speed = s;
         }
 
-        public void die()
+        public void setHealth(int h)
         {
-            // insert death sequence here (enemy dies, falls to the ground)
+            health = h;
         }
 
-        public Texture2D getAnimation(int i)
+        public Texture2D getFrame(int i)
         {
             return movementAnimations[i];
         }
