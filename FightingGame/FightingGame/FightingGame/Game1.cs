@@ -13,7 +13,7 @@ namespace FightingGame
 {
     /// <summary>
     /// This is the main type for your game
-    /// </summary>ggd
+    /// </summary>
     public class Game1 : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;
@@ -121,19 +121,19 @@ namespace FightingGame
             GamePadState p2CurrentState = GamePad.GetState(p2);
             if (p1CurrentState.ThumbSticks.Left.X < 0)
             {
-                p1Rect.X += -10;
+                p1Rect.X += -3;
             }
             if (p1CurrentState.ThumbSticks.Left.X > 0)
             {
-                p1Rect.X += 10;
+                p1Rect.X += 3;
             }
             if (p2CurrentState.ThumbSticks.Left.X < 0)
             {
-                p2Rect.X += -10;
+                p2Rect.X += -3;
             }
             if (p2CurrentState.ThumbSticks.Left.X > 0)
             {
-                p2Rect.X += 10;
+                p2Rect.X += 3;
             }
         }
         /// <summary>
