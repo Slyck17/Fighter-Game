@@ -30,5 +30,15 @@ namespace FightingGame
             moveset = m;
             speed = s;
         }
+
+        public void setHealth(int h)
+        {
+            health = h;
+        }
+
+        public Texture2D getFrame(int i)
+        {
+            return movementAnimations[i];
+        }
     }
 }
